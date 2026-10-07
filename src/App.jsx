@@ -236,3 +236,16 @@ const resumeData = {
     hackathons: []
   }
 };
+
+
+function App() {
+  return (
+    <div>
+      <h1>{resumeData.name}</h1>
+      <h2>{resumeData.title}</h2>
+      <p>{resumeData.summary}</p>
+    </div>
+  );
+}
+
+export default App;
